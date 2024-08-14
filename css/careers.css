@@ -33,7 +33,7 @@ body{
 
 .header .logo img{
     width: 130%;
-    height: 7rem;
+    height: 9rem;
     top: 0;
     left: 0;
 }
@@ -441,6 +441,7 @@ body{
     .footer .copyright {
         text-align: left;
     }
+
 }
 
 @media (max-width: 1000px){
@@ -449,8 +450,8 @@ body{
     }
 
     .header .logo img{
-        width: 20%;
-        height: 3rem;
+        width: 130%;
+        height: 9.5rem;
         top: 0;
         left: 0;
         background-size: cover;
@@ -662,5 +663,16 @@ body{
     {
         color: #aaa;
         font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .header .logo img{
+        width: 130%;
+        height: 9.5rem;
+        top: 0;
+        left: 0;
+        background-size: cover;
     }
 }
